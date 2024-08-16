@@ -1,0 +1,10 @@
+source /var/local/ML/TRAIN/jax/bin/activate
+
+# Key links
+https://github.com/google/flax/discussions/2197     #Porting PyTorch layer norm to Flax
+https://github.com/huggingface/transformers/blob/main/src/transformers/modeling_flax_pytorch_utils.py
+
+https://github.com/cgarciae/nanoGPT-jax
+https://github.com/jenkspt/gpt-jax
+
+https://jax.readthedocs.io/en/latest/random-numbers.html
