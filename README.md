@@ -12,7 +12,10 @@ Tested with `Python 3.9`
 #### Usage
 
 ##### Generation
-Generation with single prompt and multiple prompts is possible.
+Generation with single prompt and multiple prompts is possible. 
+
+The generations while quite coherent in terms of language doesn't look that great, I believe this is what GPT2 is capable of with just pre-training. Instruct tuning would make it better, I expect. 
+
 ```
 $ python generate.py \
         -p "I am a teacher," \
